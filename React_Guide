@@ -21,4 +21,24 @@ Index.js:  Starting of the react app. It allows react code to our HTML page.
   		</React.StrictMode>
 	);	
 
-	This above code will help react to render the app component into html page which present in public/index.html inside <div id="root">	
+	This above code will help react to render the app component into html page which present in public/index.html inside <div id="root">
+
+ReactDOM:
+
+   This is mainly used to convert virtual DOM created by react into browser HTML page.
+   Think about this scenario Brower only accepts HTML pages to view but in react we have java script which is gonna embeded with html pages.
+   At the runtime reactDOM is responsible for rendering those as a browsers real dom.
+
+DOM: Document object model
+   It is not a html page or react or javascript code. 
+   DOM is nothing but a tree representation of an html file. In the form of javascript can access and modify.
+
+   Document
+   └── html
+      └── body
+           ├── h1
+           │    └── "Hello"
+           └── p
+                └── "Welcome"
+   
+
