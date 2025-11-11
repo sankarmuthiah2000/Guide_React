@@ -40,5 +40,22 @@ DOM: Document object model
            │    └── "Hello"
            └── p
                 └── "Welcome"
+
+But why DOM?
+
+   Just think when browser was developed it was able to render the HTML page but only when its static.
+   To overcome the modern issues We need to render pages dynamically That's why DOM created. Which allows javascript to access and modify in runtime.
+
+   But Why its in tree structure?
+
+   		HTML pages are hierarchical in nature. Elements are nested inside one another.
+   		 
+   		Easy Traversal:
+   		    node.parentNode
+			node.firstChild
+			node.nextSibling
+
+   		We can update only a part of the tree when update happened. No need to update the whole.
+   		Tree structure will replicates other type XML, SVG and other documents. 
    
 
