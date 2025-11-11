@@ -1,0 +1,24 @@
+React:
+
+
+App.js and Index.js
+
+The above mentioned files are dependent each other in such a way that the index.js will have the root element with this component.
+
+Index.js:  Starting of the react app. It allows react code to our HTML page.
+
+ => const root = ReactDOM.createRoot(document.getElementById("root"));
+
+		document.getElementById("root") looks for a <div id="root"></div> in your public/index.html file.
+
+		React uses that <div> as the mount point — the place where your app lives in the browser.
+
+		ReactDOM allows react to interact with web browser DOM(Document Object Model)
+
+ => root.render(
+  		<React.StrictMode>
+    		<App />
+  		</React.StrictMode>
+	);	
+
+	This above code will help react to render the app component into html page which present in public/index.html inside <div id="root">	
